@@ -41,9 +41,7 @@ body {
 	background-color: #000000;
 	opacity: 0.7;
 	margin-top: 200px;
-	display: block;
-}
-
-.g-signin2 {
-	margin-top: 150px;
+	display: flex;
+	position: relative;
+	align-items: center;
 }
