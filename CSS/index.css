@@ -43,5 +43,7 @@ body {
 	margin-top: 200px;
 	display: flex;
 	align-items: center;
-	margin-left: 300px;
+}
+.g-signin2 {
+	margin-left: 40%;
 }
