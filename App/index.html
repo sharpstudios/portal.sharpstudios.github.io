@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Stakeholders Portal</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/app.css">
+		<script src="../JS/app.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<meta name="google-signin-client_id" content="1082677203389-5nkpf4fobt9ni5fg9rot0fecmu5m5r4f.apps.googleusercontent.com">
+	</head>
+	<body>
+		<div id="container">
+			<div class="div_header">
+				<div class="div_header_profilepic" id="div_header_profilepic">
+					<img src="" alt="ERROR" id="img_header_profilepic">
+				</div>
+				<div class="div_header_name" id="div_header_name"></div>
+				<div class="div_header_signout" id="div_header_signout">
+					<button onclick="userSignOut();" id="button_header_signout">
+						Sign Out
+					</button>
+				</div>
+			</div>
+			<div class="div_content">
+				<div class="div_content_messages" id="div_content_messages"></div>
+				<div class="div_content_documents" id="div_content_documents"></div>
+			</div>
+		</div>
+	</body>
+</html>
