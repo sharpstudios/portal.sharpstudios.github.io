@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #d8d8d8;
+}
+
+.header {
+	width: 100%;
+	height: 75px;
+	background-color: #373737;
+	display: inline-flex;
+}
+
+#g-signinbutton {
+	width: 100px;
+	height: 60px;
+	float: right;
+}
+
+#header_img {
+	height: 60px;
+	margin-top: 7.5px;
+	margin-left: 7.5px;
+}
+
+#header_name {
+	font-size: 48px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #b7b7af;
+	font-family: 'Noto Serif', serif;
+}
