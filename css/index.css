@@ -11,12 +11,12 @@ body {
 	height: 75px;
 	background-color: #373737;
 	display: inline-flex;
+	position: fixed;
 }
 
 #g-signinbutton {
 	margin-top: 20px;
 	float: right;
-	display: inline-block
 }
 
 #header_img {
@@ -34,11 +34,16 @@ body {
 }
 
 #header_button {
-	float: right;
+	margin-right: 7.5px;
+	right: 0px;
+	top: 0px;
 	width: 100px;
 	height: 60px;
+	position: fixed;
 }
 
 #header_profile {
 	float: left;
+	display: inline-block;
+	width: 75%;
 }
