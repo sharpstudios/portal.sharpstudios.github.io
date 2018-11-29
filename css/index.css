@@ -16,7 +16,7 @@ body {
 #g-signinbutton {
 	margin-top: 20px;
 	float: right;
-	display: inline-flex;
+	display: inline-block
 }
 
 #header_img {
@@ -37,4 +37,8 @@ body {
 	float: right;
 	width: 100px;
 	height: 60px;
+}
+
+#header_profile {
+	float: left;
 }
