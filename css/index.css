@@ -14,8 +14,7 @@ body {
 }
 
 #g-signinbutton {
-	width: 100px;
-	height: 60px;
+	margin-top: 20px;
 	float: right;
 	display: inline-flex;
 }
@@ -32,4 +31,10 @@ body {
 	margin-left: 10px;
 	color: #b7b7af;
 	font-family: 'Noto Serif', serif;
+}
+
+#header_button {
+	float: right;
+	width: 100px;
+	height: 60px;
 }
