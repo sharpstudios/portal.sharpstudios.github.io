@@ -17,6 +17,16 @@ body {
 #g-signinbutton {
 	margin-top: 20px;
 	float: right;
+	display: block;
+}
+
+#g-signout {
+	background-color: #cc4343;
+	border: 0;
+	height: 36px;
+	width: 120px;
+	margin-top: 20px;
+	display: none;
 }
 
 #header_img {
@@ -39,7 +49,7 @@ body {
 	margin-right: 7.5px;
 	right: 0px;
 	top: 0px;
-	width: 100px;
+	width: 120px;
 	height: 60px;
 	position: fixed;
 }
