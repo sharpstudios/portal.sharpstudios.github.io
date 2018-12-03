@@ -45,6 +45,24 @@ body {
 	display: inline-block;
 }
 
+#header_privacy {
+	font-size: 32px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #b7b7af;
+	font-family: 'Noto Serif', serif;
+	display: inline-block;
+}
+
+#header_serviceterms {
+	font-size: 32px;
+	font-weight: bold;
+	margin-left: 10px;
+	color: #b7b7af;
+	font-family: 'Noto Serif', serif;
+	display: inline-block;
+}
+
 #header_button {
 	margin-right: 7.5px;
 	right: 0px;
